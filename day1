@@ -1,0 +1,22 @@
+#Task1
+fav_language = {"Python","Java", "C++", "Dart", "C#"}
+print(fav_language)
+
+fav_language.add("Ruby")
+print(fav_language)
+fav_language.update(["Javascript","Golang"])
+print(fav_language)
+
+fav_language.remove("Java")
+print(fav_language)
+
+if "Python" in fav_language:
+    print("Yes")
+else:
+    print("No")
+    
+    
+print("Final set is:")
+print(fav_language)
+
+print(len(fav_language))
